@@ -14,7 +14,7 @@ function helloWorld(req, res, next) {
 function goodbyeWorld(req, res, next) {
     res.setHeader('Content-Type', 'text/plain');
     res.end('Good bye World');
- };
+};
   
 app.use(logger);
 app.use('/hello', helloWorld);
